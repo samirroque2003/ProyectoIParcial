@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Calculadora_IMC.MainPage"
+             Title="Menú Principal"
+             BackgroundColor="#1F2937">
+
+    <VerticalStackLayout Padding="40" Spacing="20" VerticalOptions="Center" HorizontalOptions="Center">
+        <Label Text="Utilidades" FontSize="26" FontAttributes="Bold" TextColor="White" HorizontalTextAlignment="Center"/>
+
+        <Button Text="Calculadora de IMC" 
+                Clicked="OnIrIMCClicked" 
+                BackgroundColor="#0ED9F0" 
+                TextColor="Black" 
+                FontAttributes="Bold"
+                HeightRequest="50" 
+                CornerRadius="8"/>
+
+        <Button Text="Conversor de Divisas" 
+                Clicked="OnIrDivisasClicked" 
+                BackgroundColor="#0D9488" 
+                TextColor="White" 
+                FontAttributes="Bold"
+                HeightRequest="50" 
+                CornerRadius="8"/>
+    </VerticalStackLayout>
+</ContentPage>
